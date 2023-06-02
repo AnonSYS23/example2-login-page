@@ -1,0 +1,77 @@
+@media screen and (max-width: 640px) {
+  .card {
+    width: 100%;
+    height: auto;
+  }
+  
+  .cover {
+    height: 200px;
+  }
+  
+  .formulario {
+    padding: 20px;
+  }
+  
+  label,
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+  }
+}
+
+.card {
+  width: 50%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.cover {
+  height: 300px;
+  background-image: url("https://picsum.photos/900");
+  background-size: cover;
+  background-position: center center;
+}
+
+.formulario {
+  padding: 50px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+form {
+  width: 100%;
+}
+
+label,
+input {
+  display: block;
+  width: 80%;
+  margin: 0 auto 15px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+input[type="submit"] {
+  width: 50%;
+  background: #008000;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background: #005000;
+}
